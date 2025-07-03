@@ -1,0 +1,67 @@
+body{
+    margin-top:10%;
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxctiUPZfrA6gPPqWEFVKDmAjjzlt1M4Obfg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:35%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 320px;
+    border: 1px solid black;
+    padding: 10px;
+    background:linear-gradient(to top,rgba(125, 138, 252, 0.753),rgba(88, 45, 245, 0.774));
+    text-align: center;
+    /* height: auto; */
+ 
+}
+#innerfield {
+    width: 290px;
+    height:35px;
+    background-color: rgb(238, 237, 255);
+    border: 3px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+}
+#addtolist {
+    width: 60px;
+    height: 30px;
+    background-color: rgba(221, 209, 255, 0.74);
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#addtolist:hover{
+    background-color: rgba(119, 62, 253, 0.849);
+    box-shadow: 5px 0px 5px rgb(25, 1, 48);
+}
+#deletolist {
+     width: 80px;
+    height: 30px;
+    background-color: rgba(221, 209, 255, 0.74);
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#deletolist:hover{
+    background-color: rgba(119, 62, 253, 0.849);
+    box-shadow: 5px 0px 5px rgb(25, 1, 48);
+
+}
+.Tolist{
+    margin-top: 5px;
+}
+.add-style{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+
+}
